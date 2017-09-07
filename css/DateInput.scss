@@ -30,11 +30,13 @@ $caret-top: $react-dates-spacing-vertical-picker - $react-dates-width-tooltip-ar
 
 .DateInput--with-caret::before {
   top: $caret-top;
+  top:22px;
   border-bottom-color: rgba(0, 0, 0, 0.1);
 }
 
 .DateInput--with-caret::after {
-  top: $caret-top + 1;
+  //top: $caret-top + 1;
+  top:22px;
   border-bottom-color: $react-dates-color-white;
 }
 

@@ -17,6 +17,10 @@
 .DateRangePickerInput__arrow {
   display: inline-block;
   vertical-align: middle;
+  color: darkgray !important;
+}
+.DateRangePickerInput__arrow>span{
+  color: darkgray !important;
 }
 
 .DateRangePickerInput__arrow svg {

@@ -340,7 +340,6 @@ export default class DateRangePicker extends React.Component {
       initialVisibleMonth || (() => (startDate || endDate || moment()));
 
     const closeIcon = customCloseIcon || (<CloseButton />);
-
     return (
       <div // eslint-disable-line jsx-a11y/no-static-element-interactions
         ref={this.setDayPickerContainerRef}

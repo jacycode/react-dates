@@ -20,7 +20,8 @@
   z-index: $react-dates-z-index + 1;
   background-color: $react-dates-color-white;
   position: absolute;
-  top: $react-dates-spacing-vertical-picker;
+  //top: $react-dates-spacing-vertical-picker;
+  top:32px;
 }
 
 .DateRangePicker__picker--rtl {    
