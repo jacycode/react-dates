@@ -132,6 +132,7 @@ class DateRangePickerWrapper extends React.Component {
           focusedInput={focusedInput}
           startDate={startDate}
           endDate={endDate}
+          showDefaultInputIcon
         />
       </div>
     );

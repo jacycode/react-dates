@@ -2,7 +2,7 @@
 
 .DateRangePickerInput {
   background-color: $react-dates-color-white;
-  border: 1px solid $react-dates-color-gray-lighter;
+  //border: 1px solid $react-dates-color-gray-lighter;
   display: inline-block;
 }
 
@@ -22,7 +22,8 @@
 .DateRangePickerInput__arrow svg {
   vertical-align: middle;
   fill: $react-dates-color-text;
-  height: $react-dates-width-arrow;
+  //height: $react-dates-width-arrow;
+  height: 22px;
   width: $react-dates-width-arrow;
 }
 
@@ -69,8 +70,8 @@
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
-  padding: 10px;
-  margin: 0 5px 0 10px;
+  //padding: 10px;
+  margin: 0 0px 0 5px;
 
   svg {
     fill: $react-dates-color-gray-light;

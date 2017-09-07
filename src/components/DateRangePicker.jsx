@@ -474,7 +474,6 @@ export default class DateRangePicker extends React.Component {
             isFocused={isDateRangePickerInputFocused}
             isRTL={isRTL}
           />
-
           {this.maybeRenderDayPickerWithPortal()}
         </OutsideClickHandler>
       </div>
